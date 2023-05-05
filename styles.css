@@ -1,0 +1,193 @@
+html{
+  background: #121212;
+}
+
+body{
+  font-family: 'Source Code Pro', monospace;
+  background: #121212;
+  color: #52575d;
+}
+
+a{
+  color: #52575d;
+}
+.yellow{
+  color: #ffd369;
+}
+.correct{
+  color: #29bb89;
+}
+.wrong{
+  color: #e84545;
+}
+.current{
+  color: #eeeeee;
+}
+.center{
+  text-align: center;
+}
+.if{
+  display: inline-flex;
+}
+
+.box {
+  max-width: 900px;
+  padding: 0 30px;
+}
+
+#heading{
+  align-self: left;
+  margin-top: 50px;
+  font-size: 1.75rem;
+  font-family: 'Source Code Pro', sans-serif;
+  font-weight: 500;
+}
+.limits-box{
+  text-align: right;
+  margin: 0 35px 0 0 ;
+  font-size: 15px;
+}
+
+.stats{
+  margin: 10px auto 20px auto;
+}
+
+.details{
+  font-size: 6rem;
+}
+.stat-block{
+  padding: 0 30px;
+  min-width: 250px;
+}
+
+@media(max-width: 600px){
+  .details{
+    font-size: 5rem;
+  }
+  .stat-block{
+    min-width: 0;
+  }
+}
+
+.stat-name{
+  font-size: 1rem;
+  position: relative;
+  top: 45px;
+  right: 5px;
+}
+
+.text-display{
+  margin: 0 0 22px 0;
+  font-size: 21px;
+  text-align: left;
+  min-height: 125px;
+}
+
+input:focus, textarea:focus, select:focus, a:focus{
+  outline: 0 ;
+}
+a:focus,a:hover{
+  color: #ffd369;
+  text-decoration: none;
+}
+
+footer{
+  padding: 20px;
+  font-size: 15px;
+}
+
+.input-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-input{
+  margin: 10px 0;
+  margin-right: 30px;
+}
+
+textarea{
+  background: #121212;
+  border: solid, #52575d;
+  border-width: 2px;
+  border-radius: 10px;
+  color: #eeeeee;
+  padding: 10px;
+  font-size: 1.2rem;
+  resize: none;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.icons {
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+}
+
+#unmuteBtn {
+  display: none;
+}
+
+#cw {
+  margin-right: 100px;
+}
+
+.keyboard {
+  background-color: #121212;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 16px;
+  margin: 0 auto;
+  width: 850px;
+  display: none;                                                 /* !!! */
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.key {
+  background-color: #222;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 6px;
+  padding: 12px;
+  text-align: center;
+  transition: background-color 0.2s ease-in-out;
+  flex-grow: 0.5;
+}
+
+.key:active {
+  background-color: #666;
+}
+
+.key.shift {
+  width: 72px;
+}
+
+.key.backspace {
+  width: 56px;
+}
+
+.key.space {
+  flex-basis: 40%;
+  height: 50px;
+  margin: 0 8px;
+}
+
+.pressed {
+  background-color: #ccc; /* изменяем цвет фона нажатой клавиши */
+  color: #fff; /* изменяем цвет текста нажатой клавиши */
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3); /* добавляем тень для имитации нажатия */
+}
+
+i:hover {
+  color: #ffd369;
+}

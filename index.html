@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="This Speed Typing Test will give you an acuurate speed test and help increase your typing speed"/>
+
+    <title>QuickType</title>
+
+    <link rel="icon" href="./assets/pictures/keyboard_23726.ico">
+
+    <!--Bootstrap 4 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Source+Code+Pro:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-B9XIZDukK4LI/+lCbzkYbve1boJ5j/zxS2JfZG0o5FC9XlP0HjKsklMXgIfBc2f+3Cq3h1KjUhZpI+P9wy/D8Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+  </head>
+  <body>
+    <div class="container-fluid box ">
+      <div class="top">
+          <h1 id="heading" class = "yellow">QuickType</h1>
+          <div class="limits-box">
+            <div class="limit">
+              <a id="thirty" class="yellow"  href="#" >30s</a>
+              <a id="sixty"  href="#" >60s</a>
+              <a id="ninety" href="#">90s</a>
+            </div>
+            <div class="limit">
+              <a id="beg" class="yellow"  href="#" >uk</a>
+              <a id="pro"  href="#" >eng</a>
+            </div>
+
+          </div>
+      </div>
+
+      <div class="stats center">
+        <div class="stat-block if">
+          <div id="timeName" class = "stat-name yellow if">Time</div>
+          <div id="time" class="details if ">30</div>
+        </div>
+
+        <div class="stat-block if">
+          <div id="cwName" class = "stat-name yellow if">CW</div>
+          <div id="cw" class="details if">0</div>
+          <div id="wpmName" class = "stat-name yellow if">WPM</div>
+          <div id="wpm" class="details if">0</div>
+        </div>
+      </div>
+
+
+      <div class="text-display" id="textDisplay">
+
+      </div>
+
+      <div class="input-area center">
+        <textarea rows="1" class="text-input" maxlength="22" id="textInput" autofocus autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></textarea>
+        <a id="restartBtn" class = "current" href="#">
+          <i class="fas fa-redo"></i>
+        </a>
+      </div>
+
+      <div class="keyboard" id="keyboard-eng">
+        <div class="row">
+          <div class="key">Q</div>
+          <div class="key">W</div>
+          <div class="key">E</div>
+          <div class="key">R</div>
+          <div class="key">T</div>
+          <div class="key">Y</div>
+          <div class="key">U</div>
+          <div class="key">I</div>
+          <div class="key">O</div>
+          <div class="key">P</div>
+        </div>
+        <div class="row">
+          <div class="key">A</div>
+          <div class="key">S</div>
+          <div class="key">D</div>
+          <div class="key">F</div>
+          <div class="key">G</div>
+          <div class="key">H</div>
+          <div class="key">J</div>
+          <div class="key">K</div>
+          <div class="key">L</div>
+        </div>
+        <div class="row">
+          <div class="key shift">Shift</div>
+          <div class="key">Z</div>
+          <div class="key">X</div>
+          <div class="key">C</div>
+          <div class="key">V</div>
+          <div class="key">B</div>
+          <div class="key">N</div>
+          <div class="key">M</div>
+          <div class="key backspace">Delete</div>
+        </div>
+        <div class="row">
+          <div class="key space"></div>
+        </div>
+      </div>
+      <div class="keyboard" id="keyboard-ukr">
+        <div class="row">
+          <div class="key">Й</div>
+          <div class="key">Ц</div>
+          <div class="key">У</div>
+          <div class="key">К</div>
+          <div class="key">Е</div>
+          <div class="key">Н</div>
+          <div class="key">Г</div>
+          <div class="key">Ш</div>
+          <div class="key">Щ</div>
+          <div class="key">З</div>
+          <div class="key">Х</div>
+          <div class="key">Ї</div>
+        </div>
+        <div class="row">
+          <div class="key">Ф</div>
+          <div class="key">І</div>
+          <div class="key">В</div>
+          <div class="key">А</div>
+          <div class="key">П</div>
+          <div class="key">Р</div>
+          <div class="key">О</div>
+          <div class="key">Л</div>
+          <div class="key">Д</div>
+          <div class="key">Ж</div>
+          <div class="key">Є</div>
+        </div>
+        <div class="row">
+          <div class="key shift">Shift</div>
+          <div class="key">Я</div>
+          <div class="key">Ч</div>
+          <div class="key">С</div>
+          <div class="key">М</div>
+          <div class="key">И</div>
+          <div class="key">Т</div>
+          <div class="key">Ь</div>
+          <div class="key">Б</div>
+          <div class="key">Ю</div>
+          <div class="key backspace">Delete</div>
+        </div>
+        <div class="row">
+          <div class="key space"></div>
+        </div>
+      </div>
+
+      <footer class="center">
+          <div class="icons flex">
+            <i class="fas fa-volume-mute fa-lg" id="muteBtn" style="margin-right: 20px;"></i>
+            <i class="fas fa-keyboard fa-lg" id="keyboardBtn" style="margin-right: 20px;"></i>
+            <i class="fas fa-font fa-lg" id="fontChangeBtn"></i>
+        </div>
+      </footer>
+    </div>
+
+
+
+
+
+    <!-- Bootstrap script -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- My Javascript -->
+    <script src="app.js"></script>
+    <script src="keyboard.js"></script>
+  </body>
+</html>
