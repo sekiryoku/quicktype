@@ -6,7 +6,7 @@ I developed this typing speed tester using HTML5, CSS, DOM and Javascript. The t
 3. the ability to connect a visual keyboard;
 It is possible to connect to the built-in spotify player and enjoy great music while learning to type.
 
-![image](https://user-images.githubusercontent.com/assets/pictures/screenshot-typingspeedtest.png)
+![image](/assets/pictures/screenshot-typingspeedtest.png)
 
 
 link to website -> https://sekiryoku.github.io/quicktype.github.io/
