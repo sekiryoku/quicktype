@@ -33,9 +33,9 @@ s<!DOCTYPE html>
           <h1 id="heading" class = "yellow">QuickType</h1>
           <div class="limits-box">
             <div class="limit">
-              <a id="thirty" class="yellow"  href="#" >30s</a>
+              <a id="fifteen" class="yellow" href="#">15s</a>
+              <a id="thirty"  href="#" >30s</a>
               <a id="sixty"  href="#" >60s</a>
-              <a id="ninety" href="#">90s</a>
             </div>
             <div class="limit">
               <a id="beg" class="yellow"  href="#" >uk</a>
@@ -163,20 +163,18 @@ s<!DOCTYPE html>
             <i class="fas fa-volume-mute fa-lg" id="muteBtn" title="Включить/выключить звук" style="margin-right: 20px;"></i>
             <i class="fas fa-keyboard fa-lg" id="keyboardBtn" title="Включить/выключить клавиатуру" style="margin-right: 20px;"></i>
             <i class="fas fa-solid fa-palette fa-lg" id="themeChangeBtn" title="Изменить тему" style="margin-right: 20px;"></i>
-            <i class="fas fa-solid fa-music fa-lg" onclick="toggleSpotify()"></i>
+            <i class="fas fa-solid fa-music fa-lg" id="spotifyBtn" onclick="toggleSpotify()" style="margin-right: 20px;"></i>
+            <!-- <button id="save-button" style="margin-right: 20px;">save results</button>
+            <button id="show-modal-button">show results</button> -->
             <div id="spotify-frame"></div>
-            <!-- <button id="saveBtn">Save Results</button>
-            <button onclick="showModal()">Show Results</button> -->
         </div>
       </footer>
     </div>
 
-    <!-- <div id="modal" class="modal">
+    <!-- <div class="modal">
       <div class="modal-content">
-        <span class="close">&times;</span>
-        <p>WPM: <span id="modal-wpm"></span></p>
-        <p>CW: <span id="modal-cw"></span></p>
-        <p>ACC: <span id="modal-acc"></span></p>
+        <button class="close-button"><span>&times;</span></button>
+        <h2>Results:</h2>
       </div>
     </div> -->
 

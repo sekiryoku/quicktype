@@ -196,8 +196,7 @@ i:hover {
   color: #ffd369;
 }
 
-/* modal
-.modal {
+/* .modal {
   display: none;
   position: fixed;
   z-index: 1;
@@ -209,29 +208,41 @@ i:hover {
   background-color: rgba(0, 0, 0, 0.4);
 } */
 
-/* Стили контента модального окна */
+/* Стили контента модального окна
 .modal-content {
   background-color: #fefefe;
   margin: 10% auto;
   padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
+  border: 1px solid #4b4b4b;
+  width: 1100px;
+  position: relative;
 }
 
 /* Стили для кнопки закрытия */
-.close {
-  color: #aaa;
-  float: right;
+/* .close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
   font-size: 28px;
   font-weight: bold;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border-color: #9e9e9e;
 }
 
-.close:hover,
-.close:focus {
+.close-button:hover,
+.close-button:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
-}
+  outline: none;
+}  */
 
 
 /* spotify location */
