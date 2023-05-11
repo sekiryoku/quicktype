@@ -9,4 +9,4 @@ It is possible to connect to the built-in spotify player and enjoy great music w
 ![image](/assets/pictures/screenshot-typingspeedtest.png)
 
 
-link to website -> 
+link to website -> https://sekiryoku.github.io/quicktype/
