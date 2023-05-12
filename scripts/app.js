@@ -18,7 +18,7 @@ let wordsSubmitted = 0;
 let wordsCorrect = 0;
 let wpmVal = 0;
 let percentageAcc = 0;
-let timer = 30;
+let timer = 15;
 let flag=0;
 let seconds;
 let difficulty=1;
