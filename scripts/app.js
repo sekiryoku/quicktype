@@ -48,6 +48,13 @@ inputItem.addEventListener('input', function(event){
 });
 
 //time selection
+function setFifteen() {
+  timer = 15;
+  limitColor(fifteen);
+  time.innerHTML = timer;
+  resetTest();
+}
+
 function setThirty() {
   timer = 30;
   limitColor(thirty);
@@ -62,12 +69,6 @@ function setSixty() {
   resetTest();
 }
 
-function setFifteen() {
-  timer = 15;
-  limitColor(fifteen);
-  time.innerHTML = timer;
-  resetTest();
-}
 thirty.addEventListener('click', setThirty);
 sixty.addEventListener('click', setSixty);
 fifteen.addEventListener('click', setFifteen);
